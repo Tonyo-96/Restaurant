@@ -295,11 +295,12 @@ hr {
 }
 /*testimonial*/
 #testimonial {
-  width: 180vh;
+  width: 50vh;
   padding: 70px 0;
+  position: relative;
 }
 .testimonial-row {
-  width: 80%;
+  width: 100%;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -318,7 +319,6 @@ hr {
 }
 .testimonial-col p {
   font-size: 14px;
-  text-align: left;
 }
 .user {
   display: flex;
@@ -326,7 +326,7 @@ hr {
   margin: 20px 0;
 }
 .user img {
-  width: 40px;
+  width: 100px;
   margin-right: 20px;
   border-radius: 3px;
 }
