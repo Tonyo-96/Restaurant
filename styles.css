@@ -1,7 +1,7 @@
 *{
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  top: 0;
+  padding: 0;
 }
 
 #banner {
@@ -217,7 +217,7 @@ nav ul li a {
 }
 /* Service */
 #service {
-  width: 100;
+  width: 100%;
   padding: 70px 0;
   background: #efefef;
 }
@@ -237,7 +237,7 @@ nav ul li a {
   position: relative;
 }
 .single-service img {
-  width: 100%;
+  width: 50%;
   border-radius: 7px;
 }
 .overlay {
@@ -296,11 +296,11 @@ hr {
 /*testimonial*/
 #testimonial {
   width: 180vh;
-  padding: 70px;
+  padding: 70px 0;
 }
 .testimonial-row {
   width: 80%;
-  margin: auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -318,6 +318,7 @@ hr {
 }
 .testimonial-col p {
   font-size: 14px;
+  text-align: left;
 }
 .user {
   display: flex;
@@ -325,7 +326,7 @@ hr {
   margin: 20px 0;
 }
 .user img {
-  width: 50px;
+  width: 40px;
   margin-right: 20px;
   border-radius: 3px;
 }
@@ -413,7 +414,7 @@ hr {
   font-size: 12px;
   margin-top: 20px;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 700px) {
   .footer-left,
   .footer-right {
       flex-basis: 100%;
