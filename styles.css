@@ -1,32 +1,31 @@
-*{
+* {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }
 
 #banner {
-  text-align: center;
   background-image: url(https://www.paramountwealth.com/wp-content/uploads/2021/08/taxes-that-a-small-business-pays-restaurant-food-baking-production-man-woman-in-aprons.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-.logo{
+.logo {
   width: 150px;
   position: absolute;
   top: 10%;
   left: 14%;
 }
-.banner-text{
+.banner-text {
   text-align: center;
   color: white;
   padding-top: 180px;
 }
-.banner-text h1{
+.banner-text h1 {
   font-size: 48px;
   font-family: cursive;
 }
-.banner-text p{
+.banner-text p {
   font-size: 20px;
   font-style: italic;
 }
@@ -74,7 +73,7 @@
 }
 nav ul li {
   list-style: none;
-  margin: 50px 0px;
+  margin: 50px 20px;
 }
 nav ul li a {
   text-decoration: none;
@@ -98,11 +97,11 @@ nav ul li a {
 }
 @media screen and (max-width: 770px) {
   .banner-text h1 {
-      font-size: 44px;
+    font-size: 44px;
   }
   .banner-btn a {
-      display: block;
-      margin: 20px auto;
+    display: block;
+    margin: 20px auto;
   }
 }
 /*--featrue--*/
@@ -139,7 +138,7 @@ nav ul li a {
   border-bottom-right-radius: 35px;
 }
 .title-text h1 {
-  font-size: 50px;
+  font-size: 24px;
   background: linear-gradient(green, white, red);
 }
 .feature-box {
@@ -172,7 +171,7 @@ nav ul li a {
 }
 .features p {
   font-weight: bold;
-  color:white;
+  color: white;
 }
 .features-desc {
   display: flex;
@@ -188,13 +187,13 @@ nav ul li a {
   color: #009688;
   border: 1px solid #009688;
 }
-.feature-icon .fa-car{
+.feature-icon .fa-car {
   color: red;
 }
-.feature-icon .fa-shopping-cart{
+.feature-icon .fa-shopping-cart {
   color: white;
 }
-.feature-icon .fa-cutlery{
+.feature-icon .fa-cutlery {
   color: green;
 }
 .features-text p {
@@ -203,16 +202,16 @@ nav ul li a {
 }
 @media screen and (max-width: 770px) {
   .title-text h1 {
-      font-size: 35px;
+    font-size: 35px;
   }
   .features {
-      flex-basis: 100%;
+    flex-basis: 100%;
   }
   .features-img {
-      flex-basis: 100%;
+    flex-basis: 100%;
   }
   .features-img img {
-      width: 100%;
+    width: 100%;
   }
 }
 /* Service */
@@ -280,22 +279,22 @@ hr {
 }
 @media screen and (max-width: 770px) {
   .single-service {
-      flex-basis: 100%;
-      margin-bottom: 30px;
+    flex-basis: 100%;
+    margin-bottom: 30px;
   }
   .service.service-desc p {
-      font-size: 12px;
+    font-size: 12px;
   }
   hr {
-      margin: 5px auto;
+    margin: 5px auto;
   }
   .single-service:hover .service-desc {
-      bottom: 25% !important;
+    bottom: 25% !important;
   }
 }
 /*testimonial*/
 #testimonial {
-  width: 50vh;
+  width: 195vh;
   padding: 70px 0;
   position: relative;
 }
@@ -309,7 +308,7 @@ hr {
 }
 .testimonial-col {
   flex-basis: 28%;
-  padding: 10px;
+  padding: 10px 0;
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0 10px 20px 30px #00968814;
@@ -338,12 +337,30 @@ hr {
 .user-info small {
   color: #009688;
 }
+
 .testimonial-col:hover {
   transform: translateY(-7px);
 }
 @media screen and (max-width: 770px) {
   .testimonial-col {
-      flex-basis: 100%;
+    flex-basis: 100%;
+  }
+  .testimonial-row {
+    width: 28%;
+    margin: 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #testimonial {
+    width: 56vh;
+  }
+  .user img {
+    width: 40vh;
+    margin-right: 20px;
+    border-radius: 3px;
   }
 }
 
@@ -417,10 +434,10 @@ hr {
 @media screen and (max-width: 700px) {
   .footer-left,
   .footer-right {
-      flex-basis: 100%;
-      font-size: 14px;
+    flex-basis: 100%;
+    font-size: 14px;
   }
   .footer-img {
-      top: 25%;
+    top: 25%;
   }
 }
