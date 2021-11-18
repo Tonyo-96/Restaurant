@@ -228,7 +228,7 @@ nav ul li a {
   margin: auto;
 }
 .single-service {
-  flex-basis: 35%;
+  flex-basis: 48%;
   text-align: center;
   border-radius: 7px;
   margin-bottom: 20px;
@@ -325,7 +325,7 @@ hr {
   margin: 20px 0;
 }
 .user img {
-  width: 100px;
+  width: 40px;
   margin-right: 20px;
   border-radius: 3px;
 }
